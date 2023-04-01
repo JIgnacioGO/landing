@@ -108,6 +108,15 @@ section p span {
   p {
   font-size: x-large;
   }
+  .areaContacto {
+    text-align: left;
+    color: #d6d6d6;
+  }
+  .areaContacto ul{
+    list-style-type: none;
+    background-color: #292424;
+    border-radius: 10px;
+  }
 }
 /* CSS tablets*/
 @media only screen and (min-width: 600px) {
@@ -117,6 +126,15 @@ section p span {
     header nav .link {
       background-color: orange;
   }
+  .areaContacto {
+    text-align: left;
+    color: #d6d6d6;
+  }
+  .areaContacto ul{
+    list-style-type: none;
+    background-color: #292424;
+    border-radius: 10px;
+  }
 }
 /* CSS laptops */
 @media only screen and (min-width: 992px) {
@@ -124,4 +142,13 @@ section p span {
     background: skyblue;
   }
   /* las imagenes deben ir alineadas horizontalmente*/
+  .areaContacto {
+    text-align: left;
+    color: #d6d6d6;
+  }
+  .areaContacto ul{
+    list-style-type: none;
+    background-color: #292424;
+    border-radius: 10px;
+  }
 }
